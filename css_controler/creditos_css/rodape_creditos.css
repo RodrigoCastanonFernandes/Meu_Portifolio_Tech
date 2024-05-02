@@ -1,0 +1,104 @@
+/*Conteudo rodape creditos*/
+/*Configuração: mídia minima 224px e maxíma 767px.*/
+@media screen and (min-width: 224px) and (max-width: 767px) {
+    .rodape_creditos {
+        background-color: black;
+        opacity: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: whitesmoke;
+        padding: 2vw 0;
+    }
+    
+    .container__rodape {
+        text-align: center;
+        padding: 1vw;
+        margin: 5vw 0;
+    }
+    
+    .rodape_logo img {
+        width: 8vw;
+        margin-bottom: 2vw;
+    }
+    
+    .rodape_texto {
+        color: whitesmoke;
+        font-size: 1.5vw;
+        padding: 0 1vw;
+        margin: 1vw 0;
+    }
+    .rodape_texto p {
+        margin-bottom: 0.7vw;
+    }
+
+}
+
+/*Configuração: mídia minima 768px e maxíma 1023px.*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .rodape_creditos {
+        background-color: black;
+        opacity: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: whitesmoke;
+    }
+    
+    .container__rodape {
+        text-align: center;
+        margin: 5vw 0;
+    }
+
+    .rodape_logo img {
+        width: 8vw;
+        margin-bottom: 2vw;
+    }
+    
+    .rodape_texto {
+        color: whitesmoke;
+        font-size: 1.5vw;
+        padding: 0 1vw;
+        margin: 1vw 0;
+    }
+    .rodape_texto p {
+        margin-bottom: 0.7vw;
+    }
+
+}
+
+/*Configuração: mídia minima 1024px*/
+@media screen and (min-width: 1024px) {
+    .rodape_creditos {
+        background-color: black;
+        opacity: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: whitesmoke;
+    }
+    
+    .container__rodape {
+        text-align: center;
+        margin: 5vw 0;
+    }
+
+    .rodape_logo img {
+        width: 8vw;
+        margin-bottom: 2vw;
+    }
+
+    .rodape_texto {
+        color: whitesmoke;
+        font-size: 1.5vw;
+        padding: 0 1vw;
+        margin: 1vw 0;
+    }
+    .rodape_texto p {
+        margin-bottom: 0.7vw;
+    }
+
+}
